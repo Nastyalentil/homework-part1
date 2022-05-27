@@ -17,6 +17,6 @@ for p, n in enumerate(reversed(system)):
         print('Помилка')
         break
 
-    result += f + b ** p
+    result += f * b ** p
 print(result)
 
